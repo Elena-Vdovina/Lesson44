@@ -9,4 +9,9 @@ public class Superman implements CanFly, CanRun, CanSwim {
   public void fly() {
     System.out.println("Supermen fly");
   }
+
+  @Override
+  public void run() {
+    System.out.println("Superman run");
+  }
 }
